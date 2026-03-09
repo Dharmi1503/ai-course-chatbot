@@ -1,0 +1,27 @@
+Artificial Intelligence is the simulation of human intelligence by machines.
+
+Machine Learning is a subset of AI where machines learn from data without being explicitly programmed.
+
+Supervised Learning is when the model is trained on labeled data. Example: predicting house prices.
+
+Unsupervised Learning is when the model finds patterns in unlabeled data. Example: customer segmentation.
+
+A Neural Network is a series of algorithms that mimic the human brain to recognize patterns.
+
+Deep Learning is a subset of machine learning that uses neural networks with many layers.
+
+Overfitting is when a model performs well on training data but poorly on new data.
+
+Underfitting is when a model is too simple to capture patterns in the data.
+
+Gradient Descent is an optimization algorithm used to minimize the error in a model.
+
+A Dataset is a collection of data used to train and test machine learning models.
+
+Features are the input variables used to make predictions in a machine learning model.
+
+A Label is the output variable that the model is trying to predict.
+
+Training is the process of feeding data to a model so it can learn patterns.
+
+Testing is the process of evaluating how well the model performs on new unseen data.

@@ -1,0 +1,23 @@
+Web Development is the process of building and maintaining websites and web applications.
+
+A Website is a collection of web pages accessible through the internet via a browser.
+
+A Web Browser is software that lets users access and view websites. Examples are Chrome and Firefox.
+
+HTTP stands for HyperText Transfer Protocol. It is the foundation of data communication on the web.
+
+HTTPS is the secure version of HTTP. It encrypts data between the browser and the server.
+
+A Domain Name is the address of a website on the internet. Example: google.com.
+
+Web Hosting is a service that stores website files and makes them accessible on the internet.
+
+Responsive Design means a website looks good on all screen sizes including mobile and desktop.
+
+A URL stands for Uniform Resource Locator. It is the address used to access a specific web page.
+
+Frontend Frameworks like Bootstrap help developers build responsive websites faster.
+
+A Web Server is software that serves web pages to users when they request them via a browser.
+
+SEO stands for Search Engine Optimization. It helps websites rank higher in search engine results.
