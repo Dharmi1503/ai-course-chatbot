@@ -52,11 +52,12 @@ FORMATTING RULES — ALWAYS FOLLOW:
 
 Course Content:
 {context}
-
-Previous Conversation:
+Previous Conversation (use this to understand follow-up questions):
 {history_text}
 
 Student Question: {question}
+
+Important: If the student asks a follow-up like "give more examples", "explain more", "why is that" — always refer back to the previous conversation topic above.
 Answer:
 """
 
