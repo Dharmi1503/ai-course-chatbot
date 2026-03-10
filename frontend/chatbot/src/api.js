@@ -8,13 +8,22 @@ export const generateSessionId = () => {
 
 export const sendMessage = async (question, courseId, sessionId) => {
   try {
-    const response = await axios.post(`${API_URL}/chat`, {
-      question: question,
-      course_id: courseId,
-      session_id: sessionId,
-    });
+    const response = await axios.post(
+      `${API_URL}/chat`,
+      {
+        question: question,
+        course_id: courseId,
+        session_id: sessionId,
+      },
+      {
+        timeout: 30000, // 30 seconds timeout
+      }
+    );
     return response.data.answer;
   } catch (error) {
+    if (error.code === "ECONNABORTED") {
+      return "Sorry, the response is taking too long. Please try again.";
+    }
     console.error("API Error:", error);
     return "Sorry, something went wrong. Please try again.";
   }
