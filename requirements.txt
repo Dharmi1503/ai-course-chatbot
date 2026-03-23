@@ -3,7 +3,14 @@ uvicorn
 langchain
 langchain-groq
 langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-text-splitters
 chromadb
 sentence-transformers
 pypdf
 python-dotenv
+unstructured
+python-docx
+python-pptx
+groq
